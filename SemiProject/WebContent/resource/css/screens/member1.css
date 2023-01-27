@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+  background-color: #f5f6f7;
+}
+
+.member_logo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  color: var(--main-color);
+}
+
+.row_group {
+  width: 460px;
+  margin: 0 auto;
+}
+
+.join_row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.join_title {
+  margin: 19px 0px 5px 0px;
+  font-size: 15px;
+}
+
+.ps_box {
+  width: 100%;
+  height: 51px;
+  padding: 10px 10px 10px 0px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.ps_box input {
+  width: 70%;
+  height: 29px;
+  border: none;
+  background-color: inherit;
+}
+
+.ps_box:focus-within {
+  border-color: var(--main-color);
+}
+
+.error_text {
+  color: red;
+  font-size: 13px;
+}
+
+/* 아이디 */
+.id_check_text {
+  width: 80%;
+}
+
+.id_check-btn {
+  width: 20%;
+}
+
+/* 생년월일 */
+.bir_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bir_ratio {
+  width: 33%;
+}
+
+.sel {
+  border: none;
+  width: 100%;
+}
+
+/* 중복확인 버튼 */
+.id_checkbox {
+  display: flex;
+}
+
+.id_checkbox .id_check-btn .idChecked {
+  border: none;
+  background-color: inherit;
+  padding-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.id_check-btn:hover {
+  border: 1px solid var(--main-color);
+}
+
+/* 우편번호 */
+.zip_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zip_info .zip_code {
+  width: 80%;
+}
+
+.zip_info .zip_code #postcode {
+  width: 100%;
+}
+
+.zip_info .zipcode_btn {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+/* 회원가입 버튼 */
+.member_btn_container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.member_btns {
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
+
+.member_btns input {
+  transition: all 0.5s ease-in-out;
+}
+
+.member_btns:hover input {
+  color: white;
+}

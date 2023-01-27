@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* components */
+@import url("components/reset3.css");
+@import url("components/horizontal1.css");
+@import url("components/grid_container1.css");
+@import url("components/footer_info1.css");
+@import url("components/detail_rull_info1.css");
+@import url("components/post.css");
+@import url("components/todo.css");
+@import url("components/vote.css");
+
+
+/* screens */
+@import url("screens/nav3.css");
+@import url("screens/hidden_nav1.css");
+@import url("screens/login1.css");
+@import url("screens/member1.css");
+@import url("screens/main_sections1.css");
+@import url("screens/fade1.css");
+@import url("screens/list.css");
+
+/* fontStyle */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");

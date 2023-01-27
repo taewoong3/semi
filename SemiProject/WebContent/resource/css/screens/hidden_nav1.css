@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.hidden_nav {
+  /* jQuery 실행 할 때 */
+  display: none;
+}
+
+.small_nav {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  width: 100%;
+  left: 0;
+}
+
+.sm-nav-set {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.small_nav--ul {
+  padding: 10px 0px 30px 0px;
+}
+
+.small_nav--ul .small_nav--list {
+  border-bottom: 1px solid white;
+  padding: 10px 0px;
+}
+
+.small_nav--ul .small_nav--list:hover {
+  color: var(--main-color);
+}
+
+.gn-media .hidden_ul .hidden_nav .small_nav--ul {
+  padding: 0 10%;
+}
+
+

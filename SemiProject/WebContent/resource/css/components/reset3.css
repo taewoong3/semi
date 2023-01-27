@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "dohyeon";
+  src: url("../../fonts/BMDOHYEON_ttf.ttf");
+}
+
+@font-face {
+  font-family: "jiro10";
+  src: url("../../fonts/BMEuljiro10yearslater.ttf");
+}
+
+@font-face {
+  font-family: "jiro";
+  src: url("../../fonts/BMEuljirooraeorae.ttf");
+}
+
+@font-face {
+  font-family: "jirottf";
+  src: url("../../fonts/BMEULJIROTTF.ttf");
+}
+
+@font-face {
+  font-family: "hanna11";
+  src: url("../../fonts/BMHANNA_11yrs_ttf.ttf");
+}
+
+@font-face {
+  font-family: "airttf";
+  src: url("../../fonts/BMHANNAAir_ttf.ttf");
+}
+
+@font-face {
+  font-family: "apro";
+  src: url("../../fonts/BMHANNAPro.ttf");
+}
+
+@font-face {
+  font-family: "jua";
+  src: url("../../fonts/BMJUA_ttf.ttf");
+}
+
+@font-face {
+  font-family: "rang";
+  src: url("../../fonts/BMKIRANGHAERANG-TTF.ttf");
+}
+
+@font-face {
+  font-family: "sung";
+  src: url("../../fonts/BMYEONSUNG_ttf.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+}
+
+

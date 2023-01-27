@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.bg_img {
+  background-color: #d8d8d5;
+}
+
+.bg_img:nth-child(2) {
+  background-color: #fae5a4;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .grid_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.grid_column {
+  height: 570px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/* grid_img */
+
+.grid_column .grid_img img {
+  max-width: 100%;
+}
+
+.bg_img:nth-child(3) .grid_column {
+  background-color: white;
+  text-align: center;
+}
+
+.bg_img:nth-child(3) .grid_info {
+  margin-bottom: 100px;
+}
+
+.bg_img:nth-child(4) .grid_column {
+  background-image: url("../../img/임진왜란.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_img:nth-child(5) .grid_column {
+  background-image: url("../../img/트라팔가해전.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_img:nth-child(6) .grid_column {
+  background-image: url("../../img/몽골제국3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #b9a9a4;
+}
+
+/* grid_text */
+.grid_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.grid_text {
+  max-width: 100%;
+  text-shadow: 1px 1px 10px red;
+}
+
+.grid_subtitle {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.grid_links .grid_link_text {
+  color: var(--a-color);
+}
+
+.grid_links .grid_link_text:first-child {
+  margin-right: 10px;
+}
+
+.grid_links .grid_link_text:hover {
+  border-bottom: 2px solid var(--a-color);
+}
+

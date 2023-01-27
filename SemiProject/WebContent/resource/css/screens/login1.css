@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+#login_container {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.login_article {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-table {
+  padding: 30px;
+  margin: 40px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.login-table tr:nth-child(1) th {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.login-table tr:nth-child(1) th i {
+  color: #03c75a;
+}
+
+.language {
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+#lang {
+  padding: 5px 2px;
+  outline: none;
+}
+
+.login-logo {
+  text-align: center;
+  height: 50px;
+  font-size: 50px;
+  color: #03c75a;
+  font-weight: bold;
+}
+
+/* login input 설정 */
+
+.login_article .login_input {
+  border: none;
+  padding: 10px;
+  width: 90%;
+  background-color: inherit;
+}
+
+.login-border {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.login-border:focus-within {
+  border-color: var(--main-color);
+}
+
+.login-btn {
+  display: flex;
+  margin-top: 10px;
+}
+
+.login-btn input {
+  background-color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.login-btn input:hover {
+  background-color: var(--main-color);
+  font-weight: bold;
+}

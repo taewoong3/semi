@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.img_slide_container {
+  z-index: 1;
+}
+
+#imgSlide {
+  clear: both;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+#imgSlide img {
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
